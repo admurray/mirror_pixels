@@ -1,0 +1,36 @@
+============================== BYTES-MIRRORING ==============================
+Filename: /home/admurray/dev/interviews/mirror_pixels/resources/small_sample.bin
+Data Size Before: 27 B
+Data Size After: 27 B
+Completion duration: 0.14453125 ms
+
+============================== BYTES-MIRRORING ==============================
+Filename: /home/admurray/dev/interviews/mirror_pixels/resources/regular_image_file_600_600.bin
+Data Size Before: 1080000 B
+Data Size After: 1080000 B
+Completion duration: 86.888427734375 ms
+
+============================== BYTES-MIRRORING ==============================
+Filename: /home/admurray/dev/interviews/mirror_pixels/resources/large_2500_1010.bin
+Data Size Before: 7575000 B
+Data Size After: 7575000 B
+Completion duration: 562.292724609375 ms
+
+============================== FILE-MIRRORING ==============================
+Filename: /home/admurray/dev/interviews/mirror_pixels/resources/small_sample.bin
+FILE Size Before: 27 B
+FILE Size After: 27 B
+Completion duration: 1.599853515625 ms
+
+============================== FILE-MIRRORING ==============================
+Filename: /home/admurray/dev/interviews/mirror_pixels/resources/regular_image_file_600_600.bin
+FILE Size Before: 1080000 B
+FILE Size After: 1080000 B
+Completion duration: 363.62548828125 ms
+
+============================== FILE-MIRRORING ==============================
+Filename: /home/admurray/dev/interviews/mirror_pixels/resources/large_2500_1010.bin
+FILE Size Before: 7575000 B
+FILE Size After: 7575000 B
+Completion duration: 4253.6201171875 ms
+

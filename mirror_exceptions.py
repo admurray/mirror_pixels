@@ -1,0 +1,2 @@
+class InvalidByteData(Exception):
+    pass
