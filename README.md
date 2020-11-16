@@ -7,7 +7,7 @@ This project provides an efficient function [mirror_bytes](https://github.com/ad
 to mirror a frame, provided as a byte sequence of the pixels.
 There is another function provided as well [mirror_pixel_file](https://github.com/admurray/mirror_pixels/blob/eac9e6a0a23ddb5d8cf43448f1c76cb665eaad5a/mirror_frame.py#L80)
 that works on a file pointer (BufferedReader object), however the performance
-for this function is much lower than the initial `mirror_bytes` function 
+for this function is much lower than the former `mirror_bytes` function 
  
  ## Input Required
  - Height of the frame in pixels
