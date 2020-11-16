@@ -74,8 +74,8 @@ class Frame:
             return rows
 
         except (TypeError, ValueError) as e:
-            logging.error(f'Unable to mirror bytes - {e}')
-            raise
+            raise MirrorBytesProcessingException(
+                f'Unable to mirror bytes - {e}')
 
     def mirror_pixel_file(self, fp, write_file):
         """
