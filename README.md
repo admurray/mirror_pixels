@@ -15,7 +15,7 @@ for this function is much lower than the initial `mirror_bytes` function
  - Size of each pixel in bytes
  - Pixel data as bytestring 
 
-#### Sample Input 
+#### Sample Pixel Input 
 *Converted to a integer list and visually edited to enhance readability*  
 ```
 [255, 255, 254, 22, 165, 254, 226, 234, 123,  
@@ -37,9 +37,8 @@ import mirror_frame
 # filename.bin is a binary file.
 with open('filename.bin', 'rb') as test_file:
     data = test_file.read()
-frame = Frame(data, frame_width=frame_width, frame_height=frame_height,
+frame = Frame(frame_data=data, frame_width=frame_width, 
+                 frame_height=frame_height,
                  pixel_size=pixel_size)
-frame.frame_data = data
-result_data = frame.mirror_bytes()
-
+mirrored_result_data = frame.mirror_bytes()
 ```
